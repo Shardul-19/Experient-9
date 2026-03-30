@@ -1,4 +1,3 @@
-It looks like you've got a solid foundation for your lab report! To make this more "report-ready" and easier to read, I’ve restructured your content into a professional format with clear hierarchies and bullet points.
 
 ---
 
