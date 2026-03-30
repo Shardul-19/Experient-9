@@ -1,35 +1,48 @@
-# Experient-9
-AIM:
+It looks like you've got a solid foundation for your lab report! To make this more "report-ready" and easier to read, I’ve restructured your content into a professional format with clear hierarchies and bullet points.
 
-To study NumPy library in Python and perform operations such as array creation, checking dimensions, shape, datatype, and using built-in NumPy functions.
+---
+
+## **Experiment: Exploration of the NumPy Library in Python**
+
+### **Aim**
+To study the **NumPy** (Numerical Python) library and perform fundamental operations, including:
+* **Array Creation:** Building 1D and 2D structures.
+* **Attribute Inspection:** Checking dimensions, shapes, and data types.
+* **Built-in Functions:** Utilizing specialized methods for array generation and statistical analysis.
+
+---
+
+### **Theory & Key Functions**
+NumPy is the core library for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices.
+
+#### **1. Array Metadata & Attributes**
+* `ndim`: Returns the number of axes (dimensions) of the array.
+* `shape`: A tuple indicating the size of the array in each dimension (e.g., $(3, 3)$ for a 3x3 matrix).
+* `dtype`: Describes the type of data held in the array (e.g., `int64`, `float32`).
+
+#### **2. Creation Functions**
+* `np.array()`: Converts Python lists or tuples into NumPy arrays.
+* `np.zeros()` / `np.ones()`: Initializes arrays of a specified shape filled with $0$ or $1$.
+* `np.arange()`: Creates sequences of numbers with a defined step size.
+* `np.linspace()`: Creates a specified number of evenly spaced values between two points.
 
 
-THEORY
-____
 
-NumPy: NumPy (Numerical Python) is a powerful Python library used for numerical computations and array processing.
+#### **3. Operations & Analysis**
+* **Element-wise Arithmetic:** Enables direct addition, subtraction, and multiplication across arrays of the same shape.
+* **Statistical Methods:** * `sum()`: Calculates the total of all elements.
+    * `mean()` / `median()`: Determines average and middle values.
+    * `max()` / `min()`: Identifies the extreme values in a dataset.
 
-np.array(): Used to create 1D and 2D arrays.
+---
 
-ndim: Returns the number of dimensions of an array.
+### **Conclusion**
+In this experiment, we successfully explored the **NumPy** library and its pivotal role in numerical computation. By practicing the creation of 1D and 2D arrays, we gained a practical understanding of:
+* How to inspect array metadata using `shape` and `ndim`.
+* The efficiency of using **vectorized operations** (arithmetic) over standard Python loops.
+* The utility of built-in statistical functions for rapid data analysis.
 
-shape: Returns the size of each dimension in the form of tuple.
+Overall, the experiment demonstrates that NumPy significantly simplifies mathematical and array-based workflows in Python, making it an essential tool for data science and engineering.
 
-dtype: Returns the datatype of array elements.
+---
 
-np.zeros(): Creates an array filled with zeros.
-
-np.ones(): Creates an array filled with ones.
-
-np.arange(): Generates evenly spaced values within a given range.
-
-np.linspace(): Generates evenly spaced numbers between a start and stop value.
-
-Array Arithmetic: NumPy allows element-wise operations like addition and multiplication.
-
-Statistical Functions: Functions like mean(), sum(), median(), and max() are used for data analysis.
-_____
-
-CONCLUSION
-
-In this experiment, we studied the NumPy library and its importance in numerical computation. We created one-dimensional and two-dimensional arrays and explored their properties like dimension, shape, and datatype. We also performed arithmetic and statistical operations efficiently using built-in functions. NumPy simplifies mathematical and array-based operations in Python.
